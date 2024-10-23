@@ -1,0 +1,47 @@
+@font-face { font-family: yoster; src: url(../font/yoster/yoster.ttf); } 
+body{
+    background-color: rgba(49, 44, 41);
+    background-image: url(../img/AINTNEURWAY.gif);
+    font-family: yoster;
+    color: #F3E0EC;
+    display: flex;
+    justify-content: center;
+}
+.szerok{
+    max-width: 2000px;
+    
+}
+.hed{
+    background-color: rgba(67, 62, 59, 0.9);
+    font-size: 40px;
+    font-weight: bold;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    line-height: 80px;
+}
+.men{
+    background-color: rgb(67, 62, 59, 0.9); 
+    padding: 15px 0px 15px 0px;
+    font-size: 20px;
+    width: 100%;
+}
+div{
+    margin: 5px;
+}
+.fot{
+    background-color: rgb(67, 62, 59, 0.9);
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+}
+a{
+    color: inherit;
+    padding-left: 20px;
+}
+a:hover{
+    color: rgb(195, 204, 146);
+}
