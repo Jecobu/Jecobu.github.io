@@ -93,6 +93,7 @@ a:hover{
 .img{
     position: relative;
     display: inline-block;
+    
 }
 span{
     font-size: 20px;
@@ -201,6 +202,7 @@ span{
 
     li{
         margin-top: 10px;
+        font-size: 15px;
     }
     ul{
         width: 30%;
