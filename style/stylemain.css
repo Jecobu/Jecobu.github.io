@@ -198,7 +198,12 @@ span{
     .czolo{
         display: none;
     }
-    .mainlinks{
-        display: initial;
+
+    li{
+        margin-top: 10px;
+    }
+    ul{
+        width: 30%;
+        max-width: 200px ;
     }
 }
