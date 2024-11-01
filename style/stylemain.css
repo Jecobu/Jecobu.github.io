@@ -10,7 +10,7 @@ body{
     text-align: center;
     font-size: 40px;
     width: 100%;
-    height: 60px;
+    min-height: 60px;
     font-weight: bold;
 }
 .main{
@@ -22,6 +22,18 @@ body{
     font-size: 30px;
     height: auto;
 }
+.mainlinks{
+    background-color: rgb(67, 62, 59);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 30px;
+    height: auto;
+}
+.margin{
+    margin: 30px;
+}
 
 .imgline{
     background-color: rgb(67, 62, 59);
@@ -31,9 +43,6 @@ body{
     margin-top: 5px;
     font-size: 30px;
     height: 200px;
-}
-.margin{
-    margin: 30px;
 }
 ul{
     width: 50%;
@@ -145,6 +154,15 @@ span{
     width: 200px;
     animation: czolol 10s infinite;
 }
+.amg1{
+    grid-area: amg1;
+}
+.amg2{
+    grid-area: amg2;
+}
+.amg3{
+    grid-area: amg3;
+}
 @keyframes czolol{
     0%{
         rotate: 0deg;
@@ -156,5 +174,31 @@ span{
     
     100%{
         rotate: 0deg;
+    }
+}
+@media screen and (max-width:700px){
+    .imgline{
+        display: grid;
+        grid-template-areas:    "amg1"
+                                "amg2"
+                                "amg3";
+        height: fit-content;
+    }
+    .imgg{
+        border: none;
+        height: 200px;
+    }
+    .flex{
+        display: initial;
+    }
+    .break{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .czolo{
+        display: none;
+    }
+    .mainlinks{
+        display: initial;
     }
 }
