@@ -26,7 +26,7 @@ body{
     background-color: rgb(67, 62, 59);
     display: flex;
     justify-content: center;
-    width: 100%;
+    
     margin-top: 5px;
     font-size: 30px;
     height: auto;
@@ -164,6 +164,16 @@ span{
 .amg3{
     grid-area: amg3;
 }
+
+.ul1{
+    grid-area: ul1;
+    margin: 30px;
+}
+.ul2{
+    grid-area: ul2;
+    margin: 30px;
+}
+
 @keyframes czolol{
     0%{
         rotate: 0deg;
@@ -199,13 +209,25 @@ span{
     .czolo{
         display: none;
     }
-
-    li{
-        margin-top: 10px;
-        font-size: 15px;
-    }
     ul{
-        width: 30%;
-        max-width: 200px ;
+        width: auto;
+    }
+    li{
+        margin-right: 50px;
+        margin-top: 10px;
+    }
+    .ul2{
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .ul1{
+        margin: 0;
+    }
+
+    .mainlinks{
+        display:grid;
+        grid-template-areas:    "ul1"
+                                "ul2";
+        justify-content: center;
     }
 }
