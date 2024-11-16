@@ -34,6 +34,9 @@ body{
 .margin{
     margin: 30px;
 }
+.marginmain{
+    margin: 30px;
+}
 
 .imgline{
     background-color: rgb(67, 62, 59);
@@ -129,7 +132,6 @@ span{
 .img:hover .img3{
     visibility: visible;
 }
-
 .fuckr{
     position: absolute;
     top: -25px;
@@ -148,6 +150,9 @@ span{
     left: 0px;
     
 }
+.czolowidth{
+    width: 200px;
+}
 .czolo{
     position:absolute;
     top: 500px;
@@ -155,6 +160,23 @@ span{
     width: 200px;
     animation: czolol 10s infinite;
 }
+
+.czolo .img4{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    z-index: 1;
+}
+.czolo:hover .img4{
+    visibility: visible;
+}
+
 .amg1{
     grid-area: amg1;
 }
@@ -187,6 +209,13 @@ span{
         rotate: 0deg;
     }
 }
+
+@media screen and (max-width:1150px){
+    .czolo{
+        display: none;
+    }
+}
+
 @media screen and (max-width:700px){
     .imgline{
         display: grid;
@@ -206,11 +235,15 @@ span{
         margin-left: 0;
         margin-top: 10px;
     }
-    .czolo{
-        display: none;
-    }
+
     ul{
         width: auto;
+    }
+    .marginmain{
+        margin: 15px;
+    }
+    .margin{
+        margin: 8px;
     }
     li{
         margin-right: 50px;
@@ -222,6 +255,9 @@ span{
     }
     .ul1{
         margin: 0;
+    }
+    .amg3{
+        height: 200px;
     }
 
     .mainlinks{
