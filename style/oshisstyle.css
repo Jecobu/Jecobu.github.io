@@ -1,0 +1,15 @@
+@font-face { font-family: yoster; src: url(../font/yoster/yoster.ttf);} 
+body{
+    color: white;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+a{
+    width: 33%;
+    justify-content: center;
+}
+.bby{
+    width: 100%;
+}

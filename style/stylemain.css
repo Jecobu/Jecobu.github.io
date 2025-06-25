@@ -1,12 +1,12 @@
 @font-face { font-family: yoster; src: url(../font/yoster/yoster.ttf); } 
 body{
     /*background-color: rgb(49, 44, 41);*/
-    background-image: url(/img/bg.gif);
+    background-image: url(/img/tlo.png);
     font-family: yoster;
     color: #F3E0EC;
 }
 .header{
-    background-color: rgb(67, 62, 59, 0.8);
+    background-color: rgb(24, 85, 82, 0.8);
     text-align: center;
     font-size: 40px;
     width: 100%;
@@ -14,7 +14,7 @@ body{
     font-weight: bold;
 }
 .main{
-    background-color: rgb(67, 62, 59, 0.8);
+    background-color: rgb(24, 85, 82, 0.8);
     display: flex;
     justify-content: center;
     width: 100%;
@@ -23,7 +23,7 @@ body{
     height: auto;
 }
 .mainlinks{
-    background-color: rgb(67, 62, 59, 0.8);
+    background-color: rgba(24, 85, 82, 0.8);
     display: flex;
     justify-content: center;
     
@@ -39,7 +39,7 @@ body{
 }
 
 .imgline{
-    background-color: rgb(67, 62, 59, 0.8);
+    background-color: rgb(24, 85, 82, 0.8);
     display: flex;
     justify-content: center;
     width: 100%;
@@ -53,11 +53,11 @@ ul{
 }
 .link{
     color: inherit;
-    background-color: rgb(122, 114, 101);
+    background-color: rgba(13, 62, 95, 0.3);
     padding: 5px;
     max-width: 200px;
     text-align: center;
-    outline: rgb(49, 44, 41) solid 3px;
+    
 }
 li{
     margin-top: 9px;
@@ -66,7 +66,7 @@ li{
     display: flex;
 }
 .stopa{
-    background-color: rgb(67, 62, 59, 0.8);
+    background-color: rgb(24, 85, 82, 0.8);
     width: 100%;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -76,11 +76,11 @@ li{
     font-weight:900;
 }
 a:hover{
-    color: rgb(195, 204, 146);
+    color: rgb(146, 202, 204);
 }
-.imgg{
-    border-left: 5px solid rgb(49, 44, 41);
-    border-right: 5px solid rgb(49, 44, 41);
+.imgg{  
+    margin-left: 5px;
+    margin-right: 5px;
     height: 200px;
 }
 .break{
@@ -117,27 +117,13 @@ span{
 .img:hover .img1{
     visibility: visible;
 }
-.img .img3{
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
 
-    position: absolute;
-    z-index: 1;
-}
-.img:hover .img3{
-    visibility: visible;
-}
 .fuckr{
     position: absolute;
     top: -25px;
     left: -175px;
     width: 200px;
-    background-color: rgb(122, 114, 101);
+    background-color: rgb(24, 85, 82, 0.8);
     color: rgb(122, 114, 101);
     text-align: center;
     line-height: 50px;
@@ -195,6 +181,13 @@ span{
     grid-area: ul2;
     margin: 30px;
 }
+.img span{
+    margin-left: 5px;
+}
+span a{
+    color: inherit;
+    text-decoration: underline
+}
 
 @keyframes czolol{
     0%{
@@ -225,7 +218,7 @@ span{
         height: fit-content;
     }
     .imgg{
-        border: none;
+        margin: none;
         height: 200px;
     }
     .flex{
