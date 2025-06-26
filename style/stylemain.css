@@ -52,7 +52,7 @@ ul{
     
 }
 .link{
-    color: inherit;
+    
     background-color: rgba(13, 62, 95, 0.3);
     padding: 5px;
     max-width: 200px;
@@ -120,17 +120,14 @@ span{
 
 .fuckr{
     position: absolute;
-    top: -25px;
+    top: -75px;
     left: -175px;
     width: 200px;
     background-color: rgb(24, 85, 82, 0.8);
-    color: rgb(122, 114, 101);
     text-align: center;
     line-height: 50px;
 }
 .fuckr:hover{
-    color: black;
-    background-color: rgb(195, 204, 146);
     transition-duration: 1s;
     top: 0px;
     left: 0px;
@@ -184,8 +181,8 @@ span{
 .img span{
     margin-left: 5px;
 }
-span a{
-    color: inherit;
+a{
+    color: #F3E0EC;
     text-decoration: underline
 }
 
