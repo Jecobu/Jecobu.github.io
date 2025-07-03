@@ -84,7 +84,7 @@ a:hover{
     height: 200px;
 }
 .break{
-    margin-left: 30px;
+    margin:0px 20px 0px 20px ;
 }
 .break:first{
     margin: 0;
@@ -92,6 +92,7 @@ a:hover{
 .flex{
     display: flex;
     justify-content: center;
+    
 }
 .img{
     position: relative;
