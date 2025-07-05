@@ -44,6 +44,16 @@ a{
 a:hover{
     color: rgb(195, 204, 146);
 }
+.przycisk{
+    padding: 0;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(140, 144, 145);
+    background-image: url(../img/arrw.png);
+}
 
 @media screen and (max-width:700px){
     .szerok{

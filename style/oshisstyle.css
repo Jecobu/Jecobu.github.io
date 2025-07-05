@@ -18,20 +18,33 @@ img{
 }
 section a{
     width: 33%;
-    filter: grayscale(100%);
 }
 section a:hover{
-    animation: obraz 1s forwards;
+    animation: xd 1s forwards;
 }
+
+section a:not(:hover){
+    animation: xdd 1s forwards;
+}
+
 .bby{
     width: 100%;
 }
-@keyframes obraz {
-    0%{
-        filter: grayscale(100%);
+
+@keyframes xd {
+    from {
+        filter: blur(2px) grayscale(100%);
     }
-    100%{
-        filter: grayscale(0%);
+    to {
+        filter: blur(0px) grayscale(0%);
+    }
+}
+@keyframes xdd {
+    from {
+        filter: blur(0px) grayscale(0%);
+    }
+    to {
+        filter: blur(2px) grayscale(100%);
     }
 }
 
