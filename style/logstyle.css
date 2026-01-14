@@ -1,4 +1,10 @@
 @font-face { font-family: yoster; src: url(../font/yoster/yoster.ttf); } 
+head,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
 body{
     background-color: rgba(49, 44, 41);
     background-image: url(../img/AINTNEURWAY.gif);
